@@ -1,0 +1,18 @@
+@import susy 
+
+$total-columns  : 12
+$column-width   : 4em
+$gutter-width   : 1em
+$grid-padding   : $gutter-width
+
+#page
+  @include container
+
+#header
+  clear: both
+
+#intro
+  @include span-columns(8,12)
+
+#progress
+  @include span-columns(4 omega,12)

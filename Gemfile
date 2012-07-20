@@ -11,3 +11,4 @@ gem 'compass', '0.12.2'
 
 # Sass libraries
 gem 'susy', '1.0.rc.3'
+gem 'kss',  :git => "git://github.com/kneath/kss.git"

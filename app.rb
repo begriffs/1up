@@ -20,7 +20,7 @@ end
 
 get '/styleguide' do
   @styleguide = Kss::Parser.new('views/stylesheets')
-  erb :styleguide
+  erb :styleguide, :layout => :'layouts/styleguide'
 end
 
 # styleguide helpers

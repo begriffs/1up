@@ -1,0 +1,18 @@
+// Todo list
+//
+// .current - Used when the todo items are actively in progress
+// Styleguide 1.2
+aside.todo
+  &.current
+    background-color: $callout-background-color
+    @include rhythm-borders
+    @include border-radius(1em)
+  &> h3
+    color: $primary-color
+    border-color: $text-color
+    @include adjust-font-size-to(24px)
+  h4
+    @include leader
+    font-weight: bold
+  time
+    font-style: italic

@@ -1,0 +1,11 @@
+// Topic within introductory material
+//
+// Styleguide 1.1
+.topic
+  &> h3
+    color: $primary-color
+    border-color: $text-color
+    @include adjust-font-size-to(24px)
+  &> p
+    @include leader
+    @include trailer

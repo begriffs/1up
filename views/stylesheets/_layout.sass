@@ -7,8 +7,13 @@ $grid-padding   : $gutter-width
   @include container
   color: $text-color
 
-#header
+#brand
   clear: both
+  &> .logo
+    @include span-columns(6,12)
+  &> .slogan
+    @include span-columns(6 omega,12)
+    text-align: right
 
 #intro
   @include span-columns(8,12)

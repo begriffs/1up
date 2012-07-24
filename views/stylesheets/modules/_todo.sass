@@ -3,10 +3,11 @@
 // .current - Used when the todo items are actively in progress
 // Styleguide 1.2
 aside.todo
+  @include rhythm-borders
+  @include border-radius(1em)
+  @include trailer
   &.current
     background-color: $callout-background-color
-    @include rhythm-borders
-    @include border-radius(1em)
   &> h3
     color: $primary-color
     border-color: $text-color

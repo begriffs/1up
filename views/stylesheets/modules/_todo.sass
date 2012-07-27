@@ -3,17 +3,17 @@
 // .current - Used when the todo items are actively in progress
 // Styleguide 1.2
 aside.todo
-  @include rhythm-borders
-  @include border-radius(1em)
-  @include trailer
+  +rhythm-borders
+  +border-radius(1em)
+  +trailer
   &.current
     background-color: $callout-background-color
   &> h3
     color: $primary-color
     border-color: $text-color
-    @include adjust-font-size-to(24px)
+    +adjust-font-size-to(24px)
   h4
-    @include leader
+    +leader
     font-weight: bold
   time
     font-style: italic

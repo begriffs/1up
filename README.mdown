@@ -7,10 +7,9 @@ to share my progress and discoveries along the way.
 
 ## This repo
 
-This is the code for [http://1up.begriffs.com](1up.begriffs.com),
-and demonstrates the stylesheet techniques discussed
-[http://blog.begriffs.com/2012/07/the-hidden-life-of-stylesheet.html](this
-blog post).
+This is the code for [1up.begriffs.com](http://1up.begriffs.com),
+and demonstrates the stylesheet techniques discussed [this blog
+post](http://blog.begriffs.com/2012/07/the-hidden-life-of-stylesheet.html).
 
 ## Your input welcome
 

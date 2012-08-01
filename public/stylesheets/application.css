@@ -213,6 +213,10 @@ aside.todo h4 {
 aside.todo time {
   font-style: italic;
 }
+aside.todo > ul > li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
 
 .logo {
   font-size: 2.5em;

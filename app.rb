@@ -2,6 +2,9 @@ require 'rubygems'
 require 'sinatra'
 require 'haml'
 require 'kss'
+configure :production do
+  require 'newrelic_rpm'
+end
 
 # Helpers
 require './lib/render_partial'

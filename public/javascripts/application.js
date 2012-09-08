@@ -7,4 +7,7 @@ $(document).ready(function() {
 	  .addClass('link external')
 	  .attr('target', '_blank');
 
+  // Fluidly resize youtube embed
+  $("section.topic").fitVids();
+
 });

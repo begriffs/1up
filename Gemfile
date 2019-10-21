@@ -3,7 +3,7 @@ source :rubygems
 gem 'rake'
 gem 'sinatra', '~> 1.2.3'
 gem 'shotgun', '~> 0.9'
-gem 'haml', '~> 3.1.4'
+gem 'haml', '~> 5.0.0'
 gem 'newrelic_rpm'
 
 # Sass & Compass

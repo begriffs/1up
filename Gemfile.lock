@@ -11,7 +11,7 @@ GEM
     kss (0.4.0)
     newrelic_rpm (3.5.2.17)
     rack (1.4.1)
-    rake (10.0.2)
+    rake (12.3.3)
     sass (3.2.0.alpha.247)
     shotgun (0.9)
       rack (>= 1.0)
